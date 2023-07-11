@@ -43,9 +43,8 @@ File đầu ra trong *setting.py*
 ```
   'anime_movie.json': {'format': 'json'}
 ```
-**Cách chạy**
-Di chuyển đến folder anime <br>
-Chạy lệnh
+**Cách chạy** <br>
+Di chuyển đến folder anime và chạy lệnh
 ```
   scrapy crawl movie
 ```
