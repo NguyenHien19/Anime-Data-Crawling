@@ -9,7 +9,6 @@ Cài đặt Python Scrapy framework: <br>
 ```
   pip install scrapy
 ```
-
 Project hiện tại có thể crawl data về anime bộ và anime lẻ.
 
 **Đối với anime bộ** <br>
@@ -43,4 +42,10 @@ Sử dụng start_urls, output file và vòng lặp dưới đây trong file *mo
 File đầu ra trong *setting.py*
 ```
   'anime_movie.json': {'format': 'json'}
+```
+**Cách chạy**
+Di chuyển đến folder anime <br>
+Chạy lệnh
+```
+  scrapy crawl movie
 ```
