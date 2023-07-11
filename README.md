@@ -1,18 +1,18 @@
 # Anime Data Crawling
 
-Project crawl dữ liệu về anime từ trang web https://animevietsub.moe/
+Project crawl dữ liệu về anime từ trang web https://animevietsub.moe/ <br>
 Project sử dụng công cụ Python Scrapy framework.
 
 ## How to run
 
-Cài đặt Python Scrapy framework:
+Cài đặt Python Scrapy framework: <br>
 ```
   pip install scrapy
 ```
 
 Project hiện tại có thể crawl data về anime bộ và anime lẻ.
 
-**Đối với anime bộ**
+**Đối với anime bộ** <br>
 Sử dụng start_urls, output file và vòng lặp dưới đây trong *movie.py* 
 ```
   start_urls = ["https://animevietsub.moe/anime-bo/"]
@@ -30,7 +30,7 @@ Trong đó, range vòng lặp là *(trang bắt đầu, trang kết thúc)* cầ
   'anime_series.json': {'format': 'json'}
 ```
 
-**Đối với anime lẻ**
+**Đối với anime lẻ** <br>
 Sử dụng start_urls, output file và vòng lặp dưới đây trong file *movie.py* 
 ```
   start_urls = ["https://animevietsub.moe/anime-le/"]
