@@ -1,6 +1,6 @@
 # Anime Data Crawling
 
-Project crawl dữ liệu về anime từ trang web https://animevietsub.moe/ <br>
+Project crawl dữ liệu về anime từ trang web https://animevietsub.moe/. Sau đó thực hiện làm sạch dữ liệu và EDA trên dữ liệu đã được làm sạch. <br>
 Project sử dụng công cụ Python Scrapy framework.
 
 ## How to run
